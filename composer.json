@@ -1,0 +1,10 @@
+{
+    "name": "jasontest",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jasontest\\testvendor\\": "src/"
+        }
+    }
+}
