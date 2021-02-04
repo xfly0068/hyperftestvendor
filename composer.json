@@ -1,10 +1,15 @@
 {
-    "name": "jasontest",
+    "name": "jasontest/testvendor",
     "type": "library",
+    "description": "jason test",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Jasontest\\testvendor\\": "src/"
         }
+    },
+    "require": {
+        "php": "^5.*",
+        "another-vendor/package": "1.*"
     }
 }
